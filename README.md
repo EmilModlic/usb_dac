@@ -4,8 +4,8 @@ Custom USB audio DACs made for headphone audio output.
 Two versions were made using different microcontrollers.
 
 Main goal:
-- Audio output with usb as input
-- MCU as usb to i2s translator
+- Audio output with USB as input
+- MCU as USB to I2S translator
 - Ultra low noise design
 
 ## Version 1 - RP2040 + PCM5102A
