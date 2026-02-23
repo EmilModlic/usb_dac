@@ -8,7 +8,7 @@ Main goal:
 - MCU as usb to i2s translator
 - Ultra low noise design
 
-## Version 1 – RP2040 + PCM5102A
+## Version 1 - RP2040 + PCM5102A
 
 First prototype USB DAC using RP2040 as MCU and PCM5102A as DAC.
 
