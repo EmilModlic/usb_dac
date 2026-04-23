@@ -1,7 +1,6 @@
 # USB Audio DAC
 
-Custom USB audio DACs made for headphone audio output.
-Two versions were made using different microcontrollers.
+Custom USB audio DAC made for headphone audio output.
 
 Main goal:
 - Audio output with USB as input
@@ -10,7 +9,7 @@ Main goal:
 
 ## Version 1 - RP2040 + PCM5102A
 
-First prototype USB DAC using RP2040 as MCU and PCM5102A as DAC.
+First version USB DAC using RP2040 as MCU and PCM5102A as DAC.
 
 Features:
 - Custom 4-layer PCB
@@ -28,23 +27,4 @@ Images:
 ![20260221_174848](https://github.com/user-attachments/assets/93b93d57-93fd-4c22-ba05-cfe05b4396aa)
 ![20250221_111041](https://github.com/user-attachments/assets/6078515b-f250-4ef9-a482-49d4fb89edb4)
 
-## Version 2 - STM32G431 + TAC5112
-
-Second version using the STM32G431 as MCU and TAC5112 as the CODEC.
-
-Improvements:
-- Cleaner layout
-- Better analog routing
-- Microphone input
-- Better clocking solution
-
-Status:
-- PCB fully functional
-- All circuits verified
-- Firmware not completed
-
-Images:
-
-![20260221_174907](https://github.com/user-attachments/assets/8c45a4dc-276b-4a93-a355-0564618459a9)
-
-Both boards were designed in KiCad.
+Board designed in KiCad.
